@@ -4,7 +4,124 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>EV-Car</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="nav-menu">
+      <a href="#" class="nav-menu__logo">
+        <img src="images/logoText.png" alt="logo ev car" />
+      </a>
+      <div class="nav-menu__links link">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Features</a>
+        <a href="#">Gear Shop</a>
+      </div>
+      <a class="nav-menu__button link" href="#">Order Now</a>
+    </nav>
+
+    <!-- Hero section -->
+    <header class="hero">
+      <div class="hero__content">
+        <span class="hero__subtitle hero__subtitle--first">smooth</span>
+        <span class="hero__subtitle hero__subtitle--second">ev cars</span>
+        <div class="hero__img">
+          <img src="images/hero-img.png" alt="ev car auto" />
+        </div>
+      </div>
+      <div class="hero__list">
+        <div class="item">
+          <span class="item__number">14M</span>
+          <span class="item__label">Battery Cost Reduction</span>
+        </div>
+        <div class="item">
+          <span class="item__number">89%</span>
+          <span class="item__label">Battery Cost Reduction</span>
+        </div>
+        <div class="item">
+          <span class="item__number">1.2M</span>
+          <span class="item__label">Charging infrastructure Expansion</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features">
+      <span class="tag tag--features">Versatile Power</span>
+      <h2 class="title title--features">
+        Discover Our Multi-functional chargers
+      </h2>
+      <div class="cards__list">
+        <div class="card-item">
+          <div class="card-item__img">
+            <img src="images/feature-img-01.jpg" alt="auto" />
+          </div>
+          <h3 class="card-item__title">Home Smart Charger</h3>
+          <p class="description">
+            A lightweight, travel-friendly Level 1 charger designed for
+            convenience. Plugs into standard wall outlets.
+          </p>
+          <div>
+            <span class="card-item__price">$999</span>
+            <span class="card-item__price card-item__price--new">$599</span>
+          </div>
+        </div>
+        <div class="card-item">
+          <div class="card-item__img">
+            <img src="images/feature-img-02.jpg" alt="auto" />
+          </div>
+          <h3 class="card-item__title">Portable EV Charger</h3>
+          <p class="description">
+            A lightweight, travel-friendly Level 1 charger designed for
+            convenience. Plugs into standard wall outlets.
+          </p>
+          <div>
+            <span class="card-item__price">$599</span>
+            <span class="card-item__price card-item__price--new">$299</span>
+          </div>
+        </div>
+        <div class="card-item">
+          <div class="card-item__img">
+            <img src="images/feature-img-03.jpg" alt="auto" />
+          </div>
+          <h3 class="card-item__title">Ultra-Fast Public Charging Station</h3>
+          <p class="description">
+            A high-power Level 3 DC fast charger for public and commercial
+            locations. Equipped with dual ports.
+          </p>
+          <div>
+            <span class="card-item__price">$20,999</span>
+            <span class="card-item__price card-item__price--new">$12,999</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="our-story">
+      <span class="tag tag--our-story">Our Story</span>
+      <div class="top__content">
+        <h2 class="title title--our-story">
+          Powering a Greener Future, One Drive at a Time
+        </h2>
+        <p class="description description--our-story">
+          We are here to support your journey towards sustainable driving.
+          Explore cutting-edge EV technology, a growing charging network, and
+          exclusive resources designed to enhance your electric vehicle
+          experience.
+        </p>
+      </div>
+      <div class="bottom__content">
+        <div class="our-story__card"></div>
+        <div class="our-story__card"></div>
+      </div>
+    </section>
+  </body>
 </html>
