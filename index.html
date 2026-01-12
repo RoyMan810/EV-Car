@@ -16,23 +16,83 @@
   <body>
     <!-- Navigation bar -->
     <nav class="nav-menu">
-      <a href="#" class="nav-menu__logo">
-        <img src="images/logoText.png" alt="logo ev car" />
-      </a>
-      <div class="nav-menu__links link">
-        <a href="#">Home</a>
-        <a href="#">Products</a>
-        <a href="#">Features</a>
-        <a href="#">Gear Shop</a>
-      </div>
-      <a class="nav-menu__button link" href="#">Order Now</a>
+      <ul id="nav-menu">
+        <li class="nav-menu__item">
+          <a href="#" class="nav-menu__logo">
+            <img src="images/logoText.png" alt="logo ev car" />
+          </a>
+        </li>
+        <li class="nav-menu__item">
+          <button class="close-sidebar">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 50 50"
+              style="fill: #ffffff"
+            >
+              <path
+                d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"
+              ></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-menu__item"><a href="#">Home</a></li>
+        <li class="nav-menu__item"><a href="#">Products</a></li>
+        <li class="nav-menu__item"><a href="#">Features</a></li>
+        <li class="nav-menu__item"><a href="#">Gear Shop</a></li>
+        <li class="nav-menu__item">
+          <a class="nav-menu__button link" href="#">Order Now</a>
+        </li>
+      </ul>
+      <button class="open-sidebar">
+        <svg
+          viewBox="-1 -1 25 25"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          id="Align-Justify--Streamline-Iconoir"
+          height="25"
+          width="25"
+        >
+          <desc>Align Justify Streamline Icon: https://streamlinehq.com</desc>
+          <path
+            d="M1.0969083333333334 4.5646375h20.806183333333333"
+            stroke="#000000"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          ></path>
+          <path
+            d="M1.0969083333333334 9.1882125h20.806183333333333"
+            stroke="#000000"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          ></path>
+          <path
+            d="M1.0969083333333334 13.811787500000001h20.806183333333333"
+            stroke="#000000"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          ></path>
+          <path
+            d="M1.0969083333333334 18.4353625h20.806183333333333"
+            stroke="#000000"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          ></path>
+        </svg>
+      </button>
     </nav>
 
     <!-- Hero section -->
     <header class="hero">
       <div class="hero__content">
-        <span class="hero__subtitle hero__subtitle--first">smooth</span>
-        <span class="hero__subtitle hero__subtitle--second">ev cars</span>
+        <span class="hero__subtitle"><span>smooth</span>ev cars</span>
         <div class="hero__img">
           <img src="images/hero-img.png" alt="ev car auto" />
         </div>
@@ -151,7 +211,7 @@
               From eco-conscious drivers to performance enthusiasts, we believe
               electric vehicles should be accessible and exciting for all.
             </p>
-            <button class="our-story__card__button link">Our Story</button>
+            <a href="#" class="our-story__card__button link">Our Story</a>
           </div>
         </div>
       </div>
@@ -284,5 +344,6 @@
         </div>
       </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
